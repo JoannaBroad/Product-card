@@ -1,7 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f2eae2;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.card {
+  background: #fff;
+  margin: auto;
+  width: 21rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.content {
+  padding: 1.5rem;
+}
+.product-type {
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6c7289;
+  letter-spacing: 0.3125rem;
+}
+.product-title {
+  color: #1c232b;
+  font-family: Fraunces;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.product-detail {
+  font-family: Montserrat;
+  font-size: 0.87rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  color: #6c7289;
+}
+.product-price{
+    color: #3D8168;
+    font-family: Fraunces;
+font-size: 2rem;
+font-weight: 700;
+line-height: 2rem;
+}
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  font-size: 11px;
+  text-align: center;
+}
